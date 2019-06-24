@@ -6,7 +6,10 @@ homepage: https://github.com/valotas/mustache4dart
 environment:
   sdk: '>=2.0.0-dev.64.1 <3.0.0'
 dependencies:
-  reflectable: ^2.0.4
+  reflectable:
+    git:
+      url: https://github.com/exitlive/reflectable.git
+      ref: analyzer-constraint
 dev_dependencies:
   test: ^1.3.0
   isolate: ^2.0.0
